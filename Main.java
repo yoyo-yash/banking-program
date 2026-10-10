@@ -53,8 +53,8 @@ public class Main {
         System.out.print("Enter deposit amount: ");
         amount = scanner.nextDouble();
 
-        if(amount<0){
-            System.out.println("Amount cannot be negtive");
+        if(amount<=0){
+            System.out.println("Amount cannot be 0 or negtive");
             return 0;
         }
         else{
