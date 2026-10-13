@@ -54,7 +54,7 @@ public class Main {
         amount = scanner.nextDouble();
 
         if(amount<=0){
-            System.out.println("Amount cannot be 0 or negtive");
+            System.out.println("Amount cannot be zero or negative");
             return 0;
         }
         else{
